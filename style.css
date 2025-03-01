@@ -1,0 +1,109 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+input[type="number"], input[type="text"] {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+input[type="number"]:focus, input[type="text"]:focus {
+    outline: none;
+    border-color: #4caf50;
+}
+
+button {
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+#wynik {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.t {
+    margin-right: 100px;
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 5px;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+
+#inputs{
+    width: 220px;
+    float: left;
+}
+
+#wynik{
+    width: calc(100% - 220px);
+    float: left;
+}
+
+#zawodnicy{
+    scrollbar-color: #333 #121212;
+    width: 100%;
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#zawodnicy::-webkit-scrollbar-button{
+    display: none;
+}
+
+#iloscZawodnikow{
+    width: 128px;
+    float: left;
+}
+
+#reset{
+    background-color: red;
+    margin-left: 10px;
+    padding: 10px 10px;
+}
+
+#reset:hover{
+    background-color: #d40000;
+}
+
+#reset:active{
+    background-color: #AA0000;
+}
+
+#iloscDruzyn{
+    width: 128px;
+    float: left;
+    margin-top: 8px;
+}

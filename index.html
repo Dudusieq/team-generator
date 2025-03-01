@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Losowanie drużyn generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontello-1c9d804e/css/fontello.css">
+</head>
+<body>
+    <div id="inputs">
+        <input type="number" id="iloscZawodnikow" step="1" value="10" min="2">
+        
+        <button id="reset" onclick="reset()">Reset</button>
+        
+        <div id="zawodnicy">
+            
+        </div>
+
+        <button id="submit" onclick="submit()">Losuj Drużyny</button>
+        <input type="number" id="iloscDruzyn" step="1" value="2" min="2">
+    </div>
+    <div id="wynik">
+        <div id="druzyna1" class="t">Drużyna 1</div>
+        <div id="druzyna2" class="t">Drużyna 2</div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
